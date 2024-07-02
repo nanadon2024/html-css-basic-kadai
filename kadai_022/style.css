@@ -1,13 +1,7 @@
 h1,p,body {
     margin: 0px;
 }
-h1 {
-    color: rgb(255, 255, 255);
-}
-p {
-    font-size: 20px;
-}
-a {
+p,a {
     font-size: 20px;
 }
 header {
@@ -15,8 +9,11 @@ header {
     background-color: rgb(244, 79, 79);
     text-align: center;
 }
+h1 {
+    color: rgb(255, 255, 255);
+}
 main {
-    margin: 10px 10px;
+    margin: 10px;
 }
 #parent {
     display: flex;
